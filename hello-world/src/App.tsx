@@ -37,11 +37,13 @@ const App: FunctionComponent = () => {
         <p>
           {/* 繰り返し処理は、値を返す式である関数型を利用する。制御構文であるforやifは試用できない。 */}
           <ul>
-            {menus.map((menu) => ( // 値を返すので()で囲む。1行で書くなら不要。もしくはreturnする。
-              <li>
-                {menu}
-              </li>
-            ))}
+            {menus.map(
+              (
+                menu, // 値を返すので()で囲む。1行で書くなら不要。もしくはreturnする。
+              ) => (
+                <li>{menu}</li>
+              ),
+            )}
           </ul>
         </p>
         <a

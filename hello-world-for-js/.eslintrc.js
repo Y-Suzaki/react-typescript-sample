@@ -7,7 +7,8 @@ module.exports = {
         "plugin:react/recommended",
         "airbnb",
         "plugin:import/errors",
-        "plugin:import/warnings"
+        "plugin:import/warnings",
+        "prettier"
     ],
     "parserOptions": {
         "ecmaFeatures": {
