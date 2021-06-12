@@ -1,6 +1,6 @@
 import { VFC } from 'react';
 import { Header, Icon, Item } from 'semantic-ui-react';
-import { Licenses } from '../../hooks/repositories';
+import { Licenses } from '../../ducks/Licences';
 import Spinner from '../molecules/Spinner';
 
 type Props = {
